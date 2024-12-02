@@ -5,6 +5,16 @@
 /.pnp
 .pnp.js
 
+# Configuración de VS Code
+.vscode/
+.history/
+.idea/
+
+# Archivos generados por extensiones
+*.code-workspace
+*.log
+
+
 # testing
 /coverage
 
