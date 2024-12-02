@@ -2,9 +2,10 @@
 import React from 'react';
 
 function Footer() {
+  const year=new Date().getFullYear();
   return (
     <footer>
-      <p>&copy; 2024 Clauw Guardians- Veterinaria y Peluquería Matius Todos los derechos reservados.</p>
+      <p> &copy; {year} Clauw Guardians- Veterinaria y Peluquería Matius Todos los derechos reservados.</p>
     </footer>
   );
 }
